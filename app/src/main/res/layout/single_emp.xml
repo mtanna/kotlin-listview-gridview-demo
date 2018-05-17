@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/img_emp"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rl_content"
+        android:layout_toRightOf="@+id/img_emp"
+        android:layout_marginLeft="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lbl_name"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lbl_designation"
+            android:layout_below="@+id/lbl_name"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lbl_salary"
+            android:layout_below="@+id/lbl_designation"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"/>
+
+
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>
